@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
+/**
+ * A simple REST controller for retrieving products.
+ * <br>
+ * So far only with hardcoded data.
+ */
 @RestController
 public class ProductController {
 

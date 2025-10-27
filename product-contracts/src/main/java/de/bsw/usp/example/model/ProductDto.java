@@ -1,5 +1,10 @@
 package de.bsw.usp.example.model;
 
+/**
+ * A simple DataTransferObject for products.
+ * <br>
+ * Has its own module to serve as a dependency for the correlating service and clients.
+ */
 public class ProductDto {
     private String sku;
     private String name;
